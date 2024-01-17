@@ -1,0 +1,4 @@
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^0.91.0"
+whisper = "^1.1.10"
