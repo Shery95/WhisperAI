@@ -21,6 +21,13 @@ import whisper
 import tempfile
 import os
 
+
+# Specify the full path to ffmpeg executable
+ffmpeg_path = "/opt/homebrew/bin/ffmpeg"  # Replace with the actual path to ffmpeg
+
+# Set the path to ffmpeg in the model
+whisper.FFMPEG_PATH = ffmpeg_path
+
 st.title("AI Audio Transcribe")
 
 # upload audio file with streamlit
